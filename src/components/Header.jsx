@@ -35,7 +35,7 @@ const Header = () => {
           >
             <div className="size-10 rounded-full bg-accent flex items-center justify-center">
               <span className="font-semibold text-lg">
-                {/* {authUser?.name[0].toUpperCase()} */}
+                {authUser?.name[0].toUpperCase()}
               </span>
             </div>
           </button>
