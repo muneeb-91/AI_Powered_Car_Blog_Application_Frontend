@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+.text-primary { color: #232536; }
+.text-secondary { color: #2A2B39; }
+.text-accent { color: #FF5959; }
+.text-surface { color: #F4F0F8; }
+
+.bg-primary { background-color: #232536; }
+.bg-secondary { background-color: #2A2B39; }
+.bg-accent { background-color: #FF5959; }
+.bg-surface { background-color: #F4F0F8; }
+
+.hover-text-primary:hover { color: #232536; }
+.hover-text-secondary:hover { color: #2A2B39; }
+.hover-text-accent:hover { color: #FF5959; }
+.hover-text-surface:hover { color: #F4F0F8; }
+
+.hover-bg-primary:hover { background-color: #232536; }
+.hover-bg-secondary:hover { background-color: #2A2B39; }
+.hover-bg-accent:hover { background-color: #FF5959; }
+.hover-bg-surface:hover { background-color: #F4F0F8; }
+
+.group:hover .text-accent{
+    color: white;
+}
+
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
