@@ -6,8 +6,8 @@ import heroBG from '../assets/hero.jpg';
 const Hero = () => {
   return (
     <div 
-        className='relative w-full bg-cover bg-center text-white z-0 mb-8'
-        style={{backgroundImage: `url(${heroBG})`, height: '100dvh', backgroundAttachment:'fixed'}}
+        className='relative w-full bg-cover bg-center text-white z-0 mb-8 lg:h-screen'
+        style={{backgroundImage: `url(${heroBG})`, backgroundAttachment:'fixed'}}
     >
         {/* Black Background Overlay */}
         <div className='absolute inset-0 bg-black/20 -z-10'></div>

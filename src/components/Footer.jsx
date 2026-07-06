@@ -32,7 +32,7 @@ const Footer = () => {
           NYC 07008, USA
         </p>
         <div className='flex items-center sm:justify-between justify-center flex-wrap sm:flex-nowrap gap-4'>
-          <span className='text-sm font-medium'>example@gmail.com &nbsp;|&nbsp; 0192 12346789</span>
+          <span className='text-sm font-medium'>driveline@gmail.com &nbsp;|&nbsp; 0192 12346789</span>
           <span className='flex items-center justify-between md:gap-5 gap-3'>
             <FaFacebook className='size-5' />
             <AiFillTwitterCircle className='size-6' />
